@@ -1,7 +1,7 @@
 ## 🛡️ SOC Homelab – Active Directory Monitoring with Wazuh SIEM
 
 ## 📌 Overview
-This project demonstrates a Security Operations Center (SOC) homelab built to monitor an enterprise-style Active Directory environment using Wazuh SIEM.
+This project demonstrates my Security Operations Center (SOC) homelab built to monitor an enterprise-style Active Directory environment using Wazuh SIEM.
 
 The lab focuses on:
 
