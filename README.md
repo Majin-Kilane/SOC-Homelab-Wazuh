@@ -23,12 +23,15 @@ ________________________________________________________________________________
 **HL-DC** – Primary Domain Controller
    - AD DS, DNS, DHCP (Primary)
    - IP: 192.168.1.10
+     
 **ADFO** – Failover Domain Controller
    - AD DS, DNS, DHCP (Failover)
    - IP: 192.168.1.11
+     
 **Windows 11 Client**
    - Domain-joined endpoint
    - IP assigned via DHCP
+     
 **Wazuh SIEM Server**
    - OS: Ubuntu Server 22.04
    - IP: 192.168.1.104 (DHCP-assigned)
