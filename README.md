@@ -38,7 +38,8 @@ ________________________________________________________________________________
    - Roles: Wazuh Manager, Indexer, Dashboard
    - Network: Internal Network (Oracle VirtualBox)
 
-********ADD DIAGRAM*******
+![SOC Homelab Diagram](https://github.com/Majin-Kilane/SOC-Homelab-Wazuh/blob/main/SOC-Homelab-Wazuh.jpg?raw=true)
+
 
 _____________________________________________________________________________________
 
