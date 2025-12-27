@@ -30,7 +30,7 @@ ________________________________________________________________________________
      
 **Windows 11 Client**
    - Domain-joined endpoint
-   - IP assigned via DHCP
+   - IP: 192.168.1.100 (DHCP-assigned)
      
 **Wazuh SIEM Server**
    - OS: Ubuntu Server 22.04
