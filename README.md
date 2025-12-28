@@ -36,7 +36,7 @@ ________________________________________________________________________________
    - OS: Ubuntu Server 22.04
    - IP: 192.168.1.104 (DHCP-assigned)
    - Roles: Wazuh Manager, Indexer, Dashboard
-   - Network: Internal Network (Oracle VirtualBox)
+   - Network: Internal Network
 
 ![SOC Homelab Diagram](https://github.com/Majin-Kilane/SOC-Homelab-Wazuh/blob/main/SOC-Homelab-Wazuh.jpg?raw=true)
 
