@@ -70,6 +70,8 @@ ________________________________________________________________________________
 
 ## 🔐 Wazuh Agent Deployment
 
+The Wazuh agent was deployed using Group Policy–based MSI installation to ensure consistency and scalability across domain-joined servers. Configuration was applied post-installation via startup scripts.
+
 **Domain Controllers**
 Wazuh agents are installed on:
 - HL-DC
