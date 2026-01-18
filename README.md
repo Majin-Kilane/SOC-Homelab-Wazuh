@@ -85,6 +85,7 @@ Detect unauthorized or suspicious changes to critical system and Active Director
 - Permission changes
 - Hash comparison
 
+
 _____________________________________________________________________________________
 
 ## Alerting & Investigation Workflow
