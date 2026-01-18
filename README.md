@@ -84,6 +84,7 @@ Sysmon (System Monitor) was deployed on monitored Windows hosts to provide enhan
 - Registry changes
 - Service and driver activity
 
+<img width="1191" height="751" alt="image" src="https://github.com/user-attachments/assets/9dbfc4e4-b09d-4e58-a765-ea34bb7467eb" />
 
 
 
