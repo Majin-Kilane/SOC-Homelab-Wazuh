@@ -84,6 +84,9 @@ Sysmon (System Monitor) was deployed on monitored Windows hosts to provide enhan
 - Registry changes
 - Service and driver activity
 
+
+
+
 ### Integration with Wazuh
 Sysmon events are collected by the Wazuh agent and parsed using prebuilt Wazuh decoders and rules, allowing correlation with authentication events, file integrity alerts, and network activity.
 
@@ -96,6 +99,7 @@ Sysmon events are collected by the Wazuh agent and parsed using prebuilt Wazuh d
 
 ### SOC Value
 Sysmon significantly improves detection fidelity by providing high-granularity endpoint telemetry, enabling faster triage and more accurate incident investigation.
+
 
 _____________________________________________________________________________________
 
