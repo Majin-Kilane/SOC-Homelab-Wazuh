@@ -48,6 +48,32 @@ ________________________________________________________________________________
 All assets reside on the same internal VirtualBox network to ensure secure, authenticated log collection.
 _____________________________________________________________________________________
 
+## Wazuh Deployment
+**1. Wazuh Server Setup**
+- Installed on Ubuntu Server
+- Assigned static IP (192.168.1.104)
+- Internal-only network connectivity
+- DNS forwarding enabled via AD for updates
+
+**2. Wazuh Agent Deployment**
+- Agents installed on:
+  - HL-DC
+  - ADFO
+  - Windows 11 Client
+- Agent installation automated using **Group Policy (GPO)**
+- Separate GPOs used for:
+  - Agent installation
+  - Agent configuration (SIEM IP, service management)
+
+
+
+
+
+
+
+
+
+
 ## 🌐 Network Design
 
 - All systems communicate over an isolated internal network
