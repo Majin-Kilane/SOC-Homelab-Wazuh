@@ -116,6 +116,7 @@ Detect unauthorized or suspicious changes to critical system and Active Director
 - Permission changes
 - Hash comparison
 
+[FIM_Client01](https://github.com/Majin-Kilane/SOC-Homelab-Wazuh/blob/main/FIM_Client01.png?raw=true)
 
 _____________________________________________________________________________________
 
