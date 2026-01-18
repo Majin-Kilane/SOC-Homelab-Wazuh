@@ -94,7 +94,7 @@ The Wazuh agent provides:
 - PowerShell detection
 - Registry change visibility
 
-📸 Add Image Here: Wazuh Dashboard showing active agents
+![Active Agents](https://github.com/Majin-Kilane/SOC-Homelab-Wazuh/blob/main/AllAgents.PNG?raw=true)
 
 _____________________________________________________________________________________
 
