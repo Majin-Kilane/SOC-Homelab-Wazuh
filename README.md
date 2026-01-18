@@ -1,14 +1,19 @@
 ## 🛡️ SOC Homelab – Active Directory Monitoring with Wazuh SIEM
 
 ## 📌 Overview
-This project demonstrates my Security Operations Center (SOC) homelab built to monitor an enterprise-style Active Directory environment using Wazuh SIEM.
+This repository documents a Security Operations Center (SOC) homelab built around Wazuh SIEM. The lab focuses on detection, monitoring, and incident investigation across Active Directory infrastructure and domain-joined systems.
 
-The lab focuses on:
+The SOC environment consumes logs and alerts from the Active Directory Home Lab, which serves as the monitored enterprise environment.
+_____________________________________________________________________________________
 
-- Centralized log collection
-- Identity-based threat detection
-- Endpoint visibility
-- Monitoring high availability services (DHCP failover)
+## Objectives
+1. Deploy and configure Wazuh SIEM in an internal network
+2. Monitor Active Directory Domain Controllers and clients
+3. Implement File Integrity Monitoring (FIM)
+4. Centralize Windows event logging
+5. Simulate attacks and validate detections
+6. Practice SOC-style investigation workflows
+7. Document alerts and incident response processes
 
 This SOC environment is built on top of a separate Active Directory homelab, which serves as the infrastructure foundation.
 
