@@ -65,6 +65,41 @@ ________________________________________________________________________________
   - Agent installation
   - Agent configuration (SIEM IP, service management)
 
+_____________________________________________________________________________________
+
+## File Integrity Monitoring (FIM)
+**Purpose**
+
+Detect unauthorized or suspicious changes to critical system and Active Directory files.
+
+**Monitored Paths**
+- C:\Windows\System32
+- C:\Windows\SYSVOL
+- C:\Program Files
+- C:\Program Files (x86)
+- C:\Users\Public
+
+Detection
+
+File creation, deletion, modification
+
+Permission changes
+
+Hash comparison
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
