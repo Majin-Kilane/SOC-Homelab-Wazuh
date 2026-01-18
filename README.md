@@ -22,9 +22,9 @@ This SOC environment is built on top of a separate Active Directory homelab, whi
 
 _____________________________________________________________________________________
 
-## Architecture Overview
+## SOC Architecture
 
-## Core Components
+## Components
 **HL-DC** – Primary Domain Controller
    - AD DS, DNS, DHCP (Primary)
    - IP: 192.168.1.10
@@ -45,7 +45,7 @@ ________________________________________________________________________________
 
 ![SOC Homelab Diagram](https://github.com/Majin-Kilane/SOC-Homelab-Wazuh/blob/main/SOC-Homelab-Wazuh.jpg?raw=true)
 
-
+All assets reside on the same internal VirtualBox network to ensure secure, authenticated log collection.
 _____________________________________________________________________________________
 
 ## 🌐 Network Design
