@@ -68,6 +68,37 @@ ________________________________________________________________________________
 ![Active Agents](https://github.com/Majin-Kilane/SOC-Homelab-Wazuh/blob/main/AllAgents.PNG?raw=true)
 _____________________________________________________________________________________
 
+## Sysmon Integration
+
+Sysmon (System Monitor) was deployed on monitored Windows hosts to provide enhanced visibility into endpoint activity. Sysmon events are forwarded to Wazuh, enabling deep process, network, and persistence detection capabilities beyond standard Windows event logging.
+
+### Monitored Hosts
+- HL-DC (Primary Domain Controller)
+- ADFO (Failover Domain Controller)
+- Windows 11 Client
+
+### Key Telemetry Collected
+- Process creation and command-line arguments
+- Network connections
+- File creation and modification
+- Registry changes
+- Service and driver activity
+
+### Integration with Wazuh
+Sysmon events are collected by the Wazuh agent and parsed using prebuilt Wazuh decoders and rules, allowing correlation with authentication events, file integrity alerts, and network activity.
+
+### Detection Use Cases
+- Suspicious PowerShell execution
+- Credential dumping indicators
+- Lateral movement attempts
+- Persistence mechanisms
+- Command-and-control behavior
+
+### SOC Value
+Sysmon significantly improves detection fidelity by providing high-granularity endpoint telemetry, enabling faster triage and more accurate incident investigation.
+
+_____________________________________________________________________________________
+
 ## File Integrity Monitoring (FIM)
 **Purpose**
 
